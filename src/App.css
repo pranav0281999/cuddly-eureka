@@ -1,0 +1,160 @@
+body {
+    overflow: hidden;
+}
+
+.div-background {
+    text-align: center;
+    background-color: #2B3648;
+    height: 100vh;
+}
+
+#div-login-details {
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    right: 5%;
+    top: 20%;
+
+    background: rgba(255, 253, 253, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.54);
+    box-sizing: border-box;
+    box-shadow: 9px 4px 44px rgba(0, 0, 0, 0.25), inset 6px 8px 29px rgba(255, 255, 255, 0.16), inset 3px 0px 109px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+}
+
+#div-login-details-inner {
+    width: 70%;
+    height: 80%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input-login {
+    width: 90%;
+    background: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 19px;
+}
+
+#div-background-ellipse {
+    position: absolute;
+    z-index: 0;
+    border-radius: 2000px;
+    background: #1F3B84;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 5px 4px 21px rgba(255, 255, 255, 0.29), inset 26px 41px 54px rgba(0, 0, 0, 0.25);
+}
+
+.full-width {
+    width: 100%;
+}
+
+p {
+    color: white;
+}
+
+.div-button {
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    padding: 11px;
+    width: 144px;
+}
+
+.p-button-text {
+    color: black;
+    align-self: center;
+    font-size: 24px;
+    line-height: 0px;
+}
+
+.div-login-input-boundary {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+.div-background-child {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.div-header {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.div-img-logo {
+    align-self: center;
+    padding-left: 2%;
+}
+
+.div-toggle-button {
+    align-self: center;
+    padding-right: 10%;
+}
+
+#div-login-details {
+    display: flex;
+    justify-content: center;
+}
+
+#div-img-saly1 {
+    position: absolute;
+}
+
+#div-img-saly14 {
+    position: absolute;
+    top: 25%;
+    left: 12%;
+}
+
+.p-login-details-header {
+    font-size: 36px;
+    line-height: 0px;
+    text-align: initial;
+}
+
+.p-login-input-label {
+    font-size: 14px;
+    line-height: 0px;
+    text-align: initial;
+}
+
+.p-login-forget-password {
+    font-size: 14px;
+    line-height: 0px;
+    text-align: end;
+}
+
+.display-flex {
+    display: flex;
+}
+
+#div-login-register {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#p-login-register {
+    font-size: 14px;
+    line-height: 0px;
+    align-self: flex-end;
+}
